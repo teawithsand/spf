@@ -1,0 +1,17 @@
+[package]
+name = "spf"
+version = "0.1.0"
+authors = ["teawithsand <teawithsand@gmail.com>"]
+edition = "2018"
+description = "spf crate implements SPF policy parsing and validation in rust"
+license = "MIT"
+repository = "https://github.com/teawithsand/spf"
+homepage = "https://github.com/teawithsand/spf"
+
+[badges]
+travis-ci = { repository = "teawithsand/spf", branch = "master" }
+# maintenance = { status = "actively-developed" }
+
+
+[dependencies]
+derive_more = "0.15.0"
