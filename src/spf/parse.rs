@@ -16,6 +16,7 @@ pub enum SpfParseError {
     InvalidFormat,
 }
 
+/*
 fn parse_addr_spec(text: &str) -> Result<(Option<u8>, Option<u8>), ()> {
     let mut v4_addr_spec = None;
     let mut v6_addr_spec = None;
@@ -108,6 +109,7 @@ impl<'a> SpfRecord<'a> {
         })
     }
 }
+*/
 
 impl<'a> SpfRecord<'a> {
     /// join joins two SPF records into one. It's useful when parsing SPF directives
